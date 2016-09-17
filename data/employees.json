@@ -1,0 +1,53 @@
+{
+  "text": "Employees",
+  "name": "asda",
+  "expended": true,
+  "children": [
+    {
+      "name": "Full-time",
+      "children": [
+        {
+          "item_id": 0,
+          "name": "Management",
+          "employees": [
+            {"firstname":"John", "lastname":"Scott", "seniority":7, "dep":"Management", "hired":"01/10/2004"},
+            {"firstname":"Alex", "lastname":"Schrute", "seniority":2, "dep":"Sales", "hired":"04/01/2004"},
+            {"firstname":"Robert", "lastname":"Halpert", "seniority":3, "dep":"Sales", "hired":"02/22/2006"},
+            {"firstname":"Sarah", "lastname":"Malone", "seniority":4, "dep":"Accounting", "hired":"06/10/2007"},
+            {"firstname":"Laura", "lastname":"Martin", "seniority":5, "dep":"Accounting", "hired":"10/21/2008"}
+          ],
+          "leaf": true
+        },
+        {
+          "item_id": 1,
+          "name": "Sales",
+          "employees": [
+            {"firstname":"Halpert", "lastname":"Schrute", "seniority":1, "dep":"Management", "hired":"01/10/2004"},
+            {"firstname":"Scott", "lastname":"Halpert", "seniority":6, "dep":"Sales", "hired":"04/01/2004"},
+            {"firstname":"Jim", "lastname":"Scott", "seniority":4, "dep":"Sales", "hired":"02/22/2006"},
+            {"firstname":"Martin", "lastname":"Martin", "seniority":7, "dep":"Accounting", "hired":"06/10/2007"},
+            {"firstname":"Angela", "lastname":"Halpert", "seniority":1, "dep":"Accounting", "hired":"10/21/2008"}
+          ],
+          "leaf": true
+        }
+      ]
+    },
+    {
+      "name": "Part-time",
+      "children": [
+        {
+          "item_id": 2,
+          "name": "Developers",
+          "employees": [
+            {"firstname":"Halpert", "lastname":"Cheech", "seniority":5, "dep":"Developers", "hired":"01/10/2004"},
+            {"firstname":"Scott", "lastname":"Malone", "seniority":8, "dep":"Sales", "hired":"04/01/2004"},
+            {"firstname":"Jim", "lastname":"Scott", "seniority":5, "dep":"Sales", "hired":"02/22/2006"},
+            {"firstname":"Martin", "lastname":"Halpert", "seniority":1, "dep":"Accounting", "hired":"06/10/2007"},
+            {"firstname":"Angela", "lastname":"Schrute", "seniority":5, "dep":"Accounting", "hired":"10/21/2008"}
+          ],
+          "leaf": true
+        }
+     ]
+    }
+  ]
+}
