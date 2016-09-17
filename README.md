@@ -7,5 +7,5 @@
 ### Install and Run:
 - git clone https://github.com/pnoroc/ExtTestApp.git
 - cd ExtTestApp
-- run `sencha app build`
+- run `sencha app build development`
 - open http://localhost/ExtTestApp
